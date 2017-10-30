@@ -4,11 +4,15 @@ h1, h2, h3, h4, h5, h6, .btn, label, a {
   margin-bottom: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  display: inline-block;
+}
+
 div, span, p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-a{
+a {
   color: #d0d6dc;
 }
 
@@ -42,7 +46,7 @@ a{
   width: 100%;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 250px;
 }
 
 .logo-container {
@@ -56,7 +60,7 @@ a{
   z-index: 3;
 }
 
-.logo img{
+.logo img {
   width: 90%;
 }
 
@@ -155,8 +159,8 @@ a{
 .btn.signup {
   border-radius: 8px;
   background-color: rgb(255, 255, 255);
-  width: 108px;
-  height: 37px;
+  width: 110px;
+  height: 40px;
 }
 
 #newsletter {
@@ -170,7 +174,7 @@ a{
   border-right-color: rgb(38, 29, 53);
   border-bottom-color: rgb(38, 29, 53);
   border-left-color: rgb(38, 29, 53);
-  width: 129px;
+  width: 130px;
 }
 
 .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
@@ -193,4 +197,20 @@ a{
 
 .btn, .social-icon {
   cursor: pointer;
+}
+
+.headline {
+  color: #dabd75;
+}
+
+.sentiment {
+  border-radius: 10px;
+  background-color: rgb(53, 53, 55);
+  box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  right: 60px;
+  top: 30px;
+  width: 365px;
+  height: 190px;
+  z-index: 35;
 }
